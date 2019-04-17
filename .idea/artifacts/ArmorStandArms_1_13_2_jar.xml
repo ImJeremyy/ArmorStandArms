@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="ArmorStandArms-1.13.2:jar">
+    <output-path>$PROJECT_DIR$/../../1.13.2 Spigot Server/plugins</output-path>
+    <root id="archive" name="ArmorStandArms.jar">
+      <element id="module-output" name="ArmorStandArms" />
+    </root>
+  </artifact>
+</component>
