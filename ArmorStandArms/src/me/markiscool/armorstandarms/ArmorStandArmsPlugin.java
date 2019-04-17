@@ -13,6 +13,7 @@ public class ArmorStandArmsPlugin extends JavaPlugin {
         permission = new Permission("armorstandarms.allow");
         permission.setDefault(PermissionDefault.OP);
         getServer().getPluginManager().registerEvents(new ArmorStandListener(this), this);
+        new MetricsLite(this);
     }
 
     public Permission getPermission() {

@@ -44,7 +44,7 @@ public  class ArmorStandListener implements Listener {
     @EventHandler
     public void onPlayerInteract(PlayerInteractEvent event) {
         Player player = event.getPlayer();
-        if(player.hasPermission(this.plugin.getPermission())) {
+        if(player.hasPermission(plugin.getPermission())) {
             Action action = event.getAction();
             if(action.equals(Action.RIGHT_CLICK_BLOCK)) {
                 if(player.isSneaking()) {
