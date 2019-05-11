@@ -14,7 +14,7 @@ import org.bukkit.inventory.ItemStack;
 import java.util.HashSet;
 import java.util.Set;
 
-public  class ArmorStandListener implements Listener {
+public class ArmorStandListener implements Listener {
 
     private ArmorStandArmsPlugin plugin;
     private Set<Player> players;
